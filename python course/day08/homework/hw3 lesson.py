@@ -10,7 +10,7 @@
 
 
 temperature = int(input("enter temperature:"))
-rain = ("yes or no")
+rain = input ("yes or no:")
 
 if temperature > 25 and rain == "no":
     print ("შესანიშნავი ამინდია სასეირნოდ")

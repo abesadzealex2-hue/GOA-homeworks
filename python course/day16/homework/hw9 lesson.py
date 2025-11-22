@@ -2,7 +2,7 @@
 
 number1=int(input("enter any number:"))
 number2=int(input("enter any number:"))
-operator=input("enter + - % / ** * < > :")
+operator=input("enter = + - % / ** * < > :")
 
 if operator == "+":
     print(number1 + number2)
@@ -27,3 +27,6 @@ elif operator == "<":
 
 elif operator == ">":
     print(number1 > number2)
+
+elif operator == "=":
+    print(number1==number2)

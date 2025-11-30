@@ -17,6 +17,8 @@
 #print(thislist[1])
 #დაპრინტე სიიდან 1 საგანი
 
+print(1)
+
 this_list = [ "banana" , "cherry"]
 print (this_list[1])
 
@@ -36,6 +38,8 @@ print (this_list[1])
 #thislist = ["apple", "banana", "cherry"]
 #print(thislist[-1])
 
+print(2)
+
 this_list = [ "banana" , "cherry"]
 print (this_list[-2])
 
@@ -50,6 +54,8 @@ print (this_list[-2])
 #Example
 #Return the third, fourth, and fifth item:
 
+print(3)
+
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
 
@@ -61,6 +67,8 @@ print(thislist[:4])
 #Example
 #This example returns the items from "cherry" to the end:
 
+print(4)
+
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:])
 
@@ -70,6 +78,8 @@ print(thislist[2:])
 #Example
 #This example returns the items from "orange" (-4) to, but NOT including "mango" (-1):
 
+print(5)
+
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[-4:-1])
 
@@ -78,6 +88,8 @@ print(thislist[-4:-1])
 
 #Example
 #Check if "apple" is present in the list:
+
+print(6)
 
 thislist = ["apple", "banana", "cherry"]
 if "apple" in thislist:

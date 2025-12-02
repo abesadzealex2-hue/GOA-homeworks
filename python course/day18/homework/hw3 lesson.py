@@ -11,11 +11,15 @@
 number = int(input("enter your number :"))
 
 if number > 0:
+
     if number % 2 == 0:
         print("დადებითი ლუწია")
 
-    elif number <= 0:
-        print("კენტია")
-
     else:
-        print("რიცხვი უარყოფითია")
+        print("დადებითი კენტია")
+
+elif number < 0:
+    print("უარყოფითია")
+  
+else:
+    print("ნული")

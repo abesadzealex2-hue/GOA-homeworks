@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body style="margin: 0px; font-family: Arial, Helvetica, sans-serif;">
+    <header>
+        <div class="nav">
+            <nav style="display: flex; justify-content: space-between; align-items: center; border: 3px solid black; background-color: black;">
+                <div class="logo">
+                    <img src="/python course/day20/images/images_1.jpg" alt="goa_logo" style="width: 100px;">                                        
+                </div>
+                <div class="links">
+                    <ul style="display: flex; justify-content: space-evenly; list-style: none; gap: 30px; margin-right: 20px;">
+                        <li><h3><a style="font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;" href="home.html">Home</a></h3></li>
+                        <li><h3><a style="font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;" href="about us.html">About Us</a></h3></li>
+                        <li><h3><a style="font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;" href="contact us.html">Contact Us</a></h3></li>
+                        <li><h3><a style="font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;" href="register.html">Register</a></h3></li>
+                        <li><h3><a style="font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;" href="temps of service.html">Temps of service</a></h3></li>
+                        <li><h3><a style="font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;" href="cookie policy.html">cookie policy</a></h3></li>
+                    </ul>                    
+                </div>
+            </nav>            
+        </div>
+    </header>
+
+    <main>
+        <div style="display: flex; justify-content: space-evenly; gap: 30px;">
+            <div class="contact-form" style="background-color: white; padding: 20px; margin: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); width: 500px;">
+                <form>
+                    <p style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Report an issue:</p>
+                    <div style="display: flex; justify-content: space-between; gap: 20px;">            
+                        <label for="name">Name:</label>
+                        <input style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; width: 700px;" type="text" id="name" name="name" title="Enter your name" placeholder="Enter your name">
+                    </div>
+                    <div style="display: flex; justify-content: space-between; gap: 23px; margin-top: 20px;">
+                        <label for="email">Email:</label>
+                        <input style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; width: 700px;" type="email" id="email" name="email" title="Enter your email" placeholder="Enter your mail">                
+                    </div>
+                    <div style="display: flex; justify-content: space-between; gap: 10px; margin-top: 20px;">
+                        <label for="subject">Subject:</label>
+                        <select style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; width: 700px;" id="subject" name="subject">
+                            <option value="">--Please choose a subject--</option>
+                            <option value="general">scam</option>
+                            <option value="support">bug/website problem</option>
+                            <option value="feedback">abusive behavior</option>
+                            <option value="feedback">copyright violation</option>
+                            <option value="feedback">payment issue</option>
+                            <option value="feedback>">other</option>
+                        </select>                
+                    </div>
+                    <br>
+                    <br>
+                    <label style="display: flex; justify-content: center;" for="message">Report:</label>
+                    <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">            
+
+                        <textarea style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; width: 600px; height: 100px;" id="message" name="message" rows="5" placeholder="Write your Report here"></textarea>
+                    </div>
+                    <button style="background-color: #45a049; margin-top: 15px; padding: 10px 20px; color: white; border: none; border-radius: 5px;">Send</button>
+                </form>
+            </div>
+
+            <div class="location" style="margin-right: 20px;">
+                <p style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Our Location on the Map:</p>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019134238476!2d-122.42067948468113!3d37.779280779758265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c2f4f6f07%3A0x4d3d1fbbeb5bdb92!2s123%20Main%20St%2C%20San%20Francisco%2C%20CA%2094105!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" 
+                    width="600" height="450" style="border: 0; border: 5px solid #333;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>            
+        <div class="contact-info" style="margin-left: 115px;">
+            <p>Address: 123 Street, tbilisi</p>
+            <p>Email: goa.academy@gmail.com | Phone: +599 000 000</p>
+            <strong>Bussiness Hours:</strong>
+            <p>Monday – Friday: 9:00 AM – 6:00 PM</p>
+            <p>Saturday: 10:00 AM – 2:00 PM</p>
+            <p>Sunday: Closed</p>
+        </div>
+        <hr style="margin: 40px;">
+        <br>
+        <h1 style="text-align: center;">We couldn't thank you more for visiting this website. Enjoy your stay!</h1>
+    </main>
+
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <div style="background-color: black; color: white; padding: 40px;">
+            <div style="display: flex; justify-content: space-between;">
+                <label style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 40px; margin-right: 100px;" for="subscribe">SUBSCRIBE FOR NOTIFICATIONS</label>
+                <div>
+                    <input style="width: 500px; height: 45px; border-radius: 2px;" type="email" name="email" id="email" value="example@gmail.com" required>
+                    <input style="margin-right: 20px; height: 50px; border-radius: 2px; color: black; background-color: white; font-family: cursive;" type="submit">                      
+                </div>
+            </div>
+            <hr style="border: 1px solid #333; margin-top: 40px;">
+        </div>
+        <div class="footer" style="background-color: black; background-size: cover; display: flex; justify-content: space-evenly; color: white; padding: 40px; gap: 350px;"> 
+            <div>
+                 <img src="/python course/day20/images/images_1.jpg" width="100" height="100" alt="goa_logo" style="width: 100px; ">  
+                <p style="font-family: sans-serif;">Goal Oriented Academy is the only learning platform you’ll ever need to unlock your full potential. Powerful, practical, and incredibly easy to follow our programs are built to help you achieve real results, supported by expert guidance every step of the way.</p>  <br>
+                <button style=" color: white; color: black; border:1px solid greenyellow; font-family: monospace; border-radius: 10px; width: 300px; height: 30px; font-size: 20px;"><strong>Purchase GOA</strong></button>              
+            </div>
+            <div style="display: block; color: White;">
+                <h1>LINKS</h1>
+                <ul>
+                    <li><h3><a style="display: block; color: white; font-size: 16px; width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="index.html">Home</a></h3></li>
+                    <li><h3><a style="display: block; color: white; font-size: 16px; width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="about.html">About Us</a></h3></li>
+                    <li><h3><a style="display: block; color: white; font-size: 16px; width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="contact.html">Contact Us</a></h3></li>
+                    <li><h3><a style="display: block; color: white; font-size: 16px; width: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="register.html">Register</a></h3></li>
+                </ul>              
+            </div>
+            <div style="display: block; color: white;">
+                <h1 style="width: 200px;">LEGAL INFO</h1>
+                <ul>
+                    <li><h3><a style="display: block; color: white; font-size: 16px; width: 200px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="privacypolicy.html">Privacy Policy</a></h3></li>
+                    <li><h3><a style="display: block; color: white; font-size: 16px; width: 200px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="termsofservice.html">Terms Of Service</a></h3></li>
+                    <li><h3><a style="display: block; color: white; font-size: 16px; width: 200px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="cookiepolicy.html">Cookie Policy</a></h3></li>
+                </ul> 
+                <div style="display: flex; justify-content: space-between;" class="apps">
+                    <div class="appstore">
+                          <img style="width: 150px; margin-top: 50px; border: 1px solid greenyellow; border-radius: 5px;" src="/python course/day20/images/appstore.png" alt="appstore">
+                    </div>   
+                    <div class="googleplay">
+                        <img style="width: 150px; margin-top: 50px; border: 1px solid greenyellow; border-radius: 5px;" src="/python course/day20/images/googleplay.png" alt="googleplay">
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div style="text-align: center; padding: 10px; background-color: #111; height: 20px; color: #aaa; margin-bottom: 0%;">
+            © 2025 Goal Oriented Academy. All rights reserved.       
+    </div>
+</body>
+</html>
+message.txt
+11 KB

@@ -99,5 +99,7 @@ else:
   print("no")
 
 
+print("0")
 
+print (bool (""))
 

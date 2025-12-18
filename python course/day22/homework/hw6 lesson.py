@@ -3,4 +3,4 @@
 
 words = ["test", "python", "code"]
 
-words[1] = "Hello"
+words[0] = "Hello"

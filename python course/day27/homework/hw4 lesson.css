@@ -1,0 +1,23 @@
+button{
+    color: bisque;
+    background-color: blue;
+    font-size: 23px;
+    border: greenyellow solid 5px;
+    text-align: center;
+}
+
+p{
+    color: rgb(42, 98, 117);
+    background-color: rgb(157, 157, 222);
+    font-size: 20px;
+    border: rgb(138, 6, 76) solid 7px; 
+    text-align: center; 
+}
+
+h4{
+    color: rgb(250, 120, 176);
+    background-color: rgb(55, 55, 131);
+    font-size: 19px;
+    border: rgb(16, 9, 147) solid 6px;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+p{
+    color: aquamarine;
+    background-color: black;
+    font-size: 45px;
+    border: 9px red solid;
+}
+
+h1{
+    color: rgb(59, 192, 26);
+    background-color: rgb(208, 20, 20);
+    font-size: 21px;
+    border: 4px rgb(77, 52, 52) solid;
+}
+
+button{
+    color: rgb(50, 19, 129);
+    background-color: rgb(36, 14, 14);
+    font-size: 19px;
+    border: 7px rgb(19, 181, 94) solid;
+}

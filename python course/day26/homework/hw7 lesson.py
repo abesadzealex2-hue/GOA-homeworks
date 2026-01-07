@@ -14,4 +14,5 @@ while True:
             numbers.pop()
             len=len-1
 print(numbers)
+print(f"len is { len } in numbers list")
         

@@ -4,7 +4,7 @@
 positive = []
 negative = []
 while True:
-    nums = input("enter any nums : ")
+    nums = input("enter any nums or stop: ")
     if nums == "stop":
         break
     if int(nums) > 0:
@@ -13,5 +13,5 @@ while True:
     elif int(nums) < 0:
         negative.append(int(nums))
 
-print("negative list" , negative)
-print("positive list" , positive)
+print(f"negative numbers: {negative}" )
+print(f"positive numbers: {positive}")

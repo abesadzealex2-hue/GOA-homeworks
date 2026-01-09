@@ -1,0 +1,29 @@
+h1{
+    color: brown;
+    background-color: azure;
+    font-size: 18px;
+    border: 5px blue solid;
+    text-align: center;
+}
+
+h3{
+    color: brown;
+    background-color: azure;
+    font-size: 18px;
+    border: 5px blue solid;
+    text-align: center;
+}
+
+p{
+    color: rgb(232, 109, 109);
+    background-color: rgb(10, 79, 79);
+    font-size: 18px;
+    border: 5px rgb(10, 10, 65) solid;
+    text-align: center;
+}
+
+button{
+    width: 77px;
+    height: 77px;
+    border: 4px red solid ;
+}

@@ -8,4 +8,4 @@ print(words)
 
 
 for i in range (len(words)):
-    print(words[i].capitalize())
+    print(words[i].capitalize())  

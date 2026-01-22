@@ -32,7 +32,6 @@ else:
         else:
             i += 1
 
-
 print(symbols)
 
 

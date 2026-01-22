@@ -19,7 +19,4 @@ while i < len(str1):
 
     i += 1
         
-
-    
-
 print(list1)

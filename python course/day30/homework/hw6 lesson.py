@@ -13,6 +13,5 @@ while i < len(list1):
     else:
         i += 1
     
-
 print(list1)
 

@@ -13,4 +13,7 @@ for i in names1:
     elif i == i.upper() or i[0] == "k":
         new_list.append("GOGA")
 
+    else:
+        new_list.append("ლიდერი")
+
 print(new_list)

@@ -34,6 +34,8 @@ else:
 
 print(symbols)
 
+print(len(symbols))
+
 
 
 

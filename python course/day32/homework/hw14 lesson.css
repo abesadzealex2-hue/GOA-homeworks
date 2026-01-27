@@ -1,0 +1,21 @@
+/* 13)შექმენი დალაგებული სია 10 ელემენტით
+
+5 ელემენტს მიეცი ერთნაირი კლასი და გასტილე სურვილისამებს
+
+დანაღჩენ 5 ს მიეცი განსხვავებული კლასები ცალცალკე და გასტილე სურვილისამებრ */
+
+.li1{
+
+    color: blueviolet;
+    font-size: small;
+    text-align: end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.li2{
+
+    color: rgb(113, 70, 153);
+    font-size: 34px;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

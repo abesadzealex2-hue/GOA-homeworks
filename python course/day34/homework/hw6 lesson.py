@@ -3,7 +3,7 @@
 # გამოიძახეთ ფუნქცია.
 
 def function1():
-    sentence = input("enter any sentence :: ")
+    sentence = input("enter any sentence : ")
     words = sentence.split()
 
     biggest1 = ""

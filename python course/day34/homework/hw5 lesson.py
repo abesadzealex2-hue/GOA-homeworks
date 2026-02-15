@@ -6,6 +6,12 @@
 
 def function1():
     list1 = [1, 2, 2, 3, 3, 4, 5, 6, 5]
+    new_list = []
 
-    
+    for i in list1:
+        if i not in list1:
+            new_list.append(i)
+            
+    print(new_list)
 
+function1()

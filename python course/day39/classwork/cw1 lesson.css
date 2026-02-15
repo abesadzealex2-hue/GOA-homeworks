@@ -1,0 +1,15 @@
+#p1{
+    text-decoration-line: overline;
+}
+
+#p11{
+    text-decoration-line: line-through;
+}
+
+#p111{
+    text-decoration-line: underline;
+}
+
+#p1111{
+    text-decoration-line: none;
+}

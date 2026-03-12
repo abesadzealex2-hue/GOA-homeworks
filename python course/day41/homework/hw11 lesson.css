@@ -1,0 +1,14 @@
+/* 11)შექმენი <a> ელემენტი.
+:link მდგომარეობაში:
+
+ჰქონდეს background-color
+
+ტექსტი იყოსიასამნისფერი
+
+და კალიგრაფია ქონდეს --> ის რაც დააიმპორტე მე-4 ე დავალებაში */
+
+a:link{
+    background-color: aqua;
+    color: blueviolet;
+    font-family: "Comforter", cursive;
+}

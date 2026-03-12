@@ -1,0 +1,11 @@
+/* 10)შექმენი ლინკი
+:link მდგომარეობაში:
+
+ჰქონდეს border
+
+background იყოს ღია ფერის */
+
+nav:link{
+    background-color: 5px solid red;
+    background-color: aquamarine;
+}

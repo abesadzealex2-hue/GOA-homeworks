@@ -1,0 +1,19 @@
+input[type="text"]{
+    background-color: red;
+    color: blue;
+    border-radius: 10px;
+}
+
+input[type="Email"]{
+    background-color: rgb(218, 125, 10);
+    color: rgb(211, 4, 4);
+    outline: none;
+}
+
+input[type="password"]{
+    background-color: rgb(67, 4, 79);
+    border: 2px solid red;
+    color: rgb(12, 168, 46);
+    border-radius: 5px;
+    outline: none;
+}

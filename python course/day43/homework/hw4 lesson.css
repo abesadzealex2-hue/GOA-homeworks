@@ -1,0 +1,11 @@
+p:nth-child(1){
+    background-color: greenyellow;
+}
+
+p:nth-child(even){
+    background-color: blue;
+}
+
+p:nth-child(3){
+    background-color: purple;
+}

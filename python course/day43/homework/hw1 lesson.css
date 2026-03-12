@@ -1,0 +1,21 @@
+table{
+    
+    border: 3px rgb(60, 156, 126) solid;
+    border-collapse: collapse;
+}
+
+tr,th,td{
+    border: 2px solid rgb(77, 178, 183);
+}
+
+tr,th,td{
+    text-align: center;
+}
+
+tr:nth-child(1){
+    background-color: rgb(54, 152, 134);
+}
+
+tr:nth-child(3){
+    color: rgb(54, 152, 134);
+}

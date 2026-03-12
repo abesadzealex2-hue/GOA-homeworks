@@ -1,0 +1,17 @@
+table{
+    border:2px solid cyan;
+    border-collapse: collapse;
+}
+
+tr,th,td{
+    text-align: center;
+    border: black 2px solid;
+}
+
+tr:nth-child(1){
+    border: 2px solid rgb(19, 238, 231);
+}
+
+tr:nth-child(1){
+    background-color: rgb(5, 226, 242);
+}

@@ -1,0 +1,12 @@
+table{
+    border:2px solid rgb(8, 11, 11);
+    border-collapse: collapse;
+}
+
+tr,th,td{
+    text-align: center;
+    border: black 2px solid;
+}
+
+
+

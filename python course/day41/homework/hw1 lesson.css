@@ -1,0 +1,22 @@
+button{
+    color: rgb(239, 158, 158);
+    background-color: aqua;
+}
+
+button:hover{
+    color: red;
+    background-color: blue;
+    
+}
+
+p{
+    color: rgb(239, 158, 158);
+    background-color: aqua;
+}
+
+p:hover{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+

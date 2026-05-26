@@ -1,0 +1,32 @@
+/* 9)შექმენი კონტეინერი 4 ბლოკით (ამ 4 ივე დივშ ჩაწერე რიცხვები 1 2 3 4 და ეს რიცხვებიც გადმოიტანე ამ ბლოკების შუაში).
+
+ელემენტები დაალაგე ვერტიკალურად რომ იმოძრაონ ზემოდან ქვემოთ მაგრამ უკუღმა, ცენტრში ჰორიზონტალურად და შუაში ვერტიკალურად. */
+
+#small1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#small2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#small3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#small4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#big1{
+    display: flex;
+    flex-direction: column-reverse;
+}

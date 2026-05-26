@@ -1,0 +1,36 @@
+/* 1)შექმენი დივი
+
+ფერი მწვანე , სიგანე სიმაღლე 300px , ბორდერი 1პხ წითელი ფერის
+
+შენი დავალებაა hover ზე მისცე დივს შემდეგი სტილები 
+
+ფერი გახდეს ყვითელი 2s ში
+
+border გაუსქელდეს და გახდეს 5პხ ლურჯი ფერის 5s ში
+
+მოუმრგვალდეს კუთხეები 20პხ ით 3s ში
+
+სიგანე გახდეს 400px 6s ში
+
+სიმაღლე გახდეს 350პხ 3s ში
+
+ჩამოვიდეს ქვემოთ(translateY) 100px ით 7s ში
+
+სიჩქარე იყოს constant(linear) */
+
+#par1{
+    width: 300px;
+    height: 300px;
+    border: 1px red solid;
+    background-color: green;
+    transition:background-color 2s , border 5s , border-radius 3s , width 6s , height 3s , transform 7s  linear  ;
+}
+
+#par1:hover{
+    background-color: yellow;
+    border: 5px blue solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+    transform: translateY(100px);
+}

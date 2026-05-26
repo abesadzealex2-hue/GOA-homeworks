@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+#par1{
+    display: flex;
+    background-color: hsl(0, 16%, 79%);
+    height: 700px;
+    width: 1000px;
+    
+}
+
+#fh1{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 1000;
+    color: hsl(300, 43%, 22%);
+    font-size: 44px;
+    line-height: 40px;
+    word-spacing: 5px;
+
+    
+
+}
+
+
+#child2{
+    width:470px ;
+}
+
+#fp1{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 100px;
+    opacity: 0.5;
+    font-size: 14px;
+    font-family: "League Spartan", sans-serif;
+    word-spacing: 3px;
+    line-height: 25px;
+
+    
+}
+
+#child1{
+    width:400px ;
+}
+
+#par2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color:hsl(303, 10%, 53%) ;
+    width: 400px;
+    height: 30px;
+    
+    
+}
+
+#child4{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 200px;
+    
+    
+    
+}

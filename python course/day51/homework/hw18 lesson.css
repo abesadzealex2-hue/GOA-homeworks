@@ -1,0 +1,25 @@
+/* 18)გაქვს navigation:
+
+logo
+menu
+profile
+
+shorthand-ით გააკეთე:
+
+logo — ფიქსირებული ზომა
+profile — ფიქსირებული ზომა
+menu — adaptive (იზრდება და მცირდება) */
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    
+}
+
+#menu1{
+    display: flex;
+    flex: 1 1;
+}

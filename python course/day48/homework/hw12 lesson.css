@@ -1,0 +1,11 @@
+/* 12)შექმენი კონტეინერი (width: 500px, height: 300px) და 5 ბლოკი.
+ელემენტები დაალაგე ვერტიკალურად უკუღმა, ცენტრში ჰორიზონტალურად და ცენტრში ვერტიკალურად. */
+
+div{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}

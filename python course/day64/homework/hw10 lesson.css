@@ -1,0 +1,22 @@
+/* 10)შექმენი ბლოკი და hover-ზე:
+
+შემცირდეს ზომაში
+
+მარცხნივ გადავიდეს 
+
+ოდნავ დახრილი გახდეს  */
+
+div{
+    height: 400px;
+    width: 400px;
+    background: url(download\ \(5\).jpg) no-repeat;
+}
+
+div:hover{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 400px;
+    transform: rotate(40deg);
+    background: url(download\ \(5\).jpg) no-repeat;
+}

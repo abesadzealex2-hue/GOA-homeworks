@@ -1,0 +1,17 @@
+/* 4)შექმენი div:
+
+სურათი იყოს ქვედა მარცხენა მხარეს
+
+გამეორდეს y ზე
+
+ზომა იყოს 80px
+
+ბოლოს - გამოიყენე shorthand იც */
+
+div{
+    width: 600px;
+    height: 600px;
+    border: 1px red solid;
+    background: url(75657d714e308ce4912927379ddbf112.jpg) repeat-y bottom left;
+    background-size: 80px;
+}

@@ -1,0 +1,17 @@
+/* 2)შექმენი ბლოკი (400x250) და:
+
+სურათი იყოს მარცხენა ზედა კუთხეში
+
+იყოს პატარა ზომის(მიეცით ზომა 100px)
+
+ფოტო არ განმეორდეს 
+
+ასევე - გამოიყენე shorthand იც  */
+
+div{
+    height: 400px;
+    width: 250px;
+    background: url(75657d714e308ce4912927379ddbf112.jpg) left top no-repeat;
+    background-size :100px;
+    border: 1px red solid;
+}

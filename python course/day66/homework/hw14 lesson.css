@@ -1,0 +1,17 @@
+/* 14)შექმენი card, რომელსაც hover-ზე:
+translateY(-20px)-ით ზემოთ აიწევს
+ჩრდილი დაემატება 
+all 2s */
+
+div{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(130, 80, 36);
+    transition: transform 1s , box-shadow 1s , all 2s;
+}
+
+div:hover{
+    transform: translateY(-20px);
+    box-shadow: 6px 9px 4px rgb(163, 139, 109);
+    background-color: rgb(224, 184, 124);
+}

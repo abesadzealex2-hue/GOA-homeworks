@@ -1,0 +1,22 @@
+/* 3)შექმენი card, რომელსაც hover-ზე:
+translateY(-20px) შესრულდეს 0.4s
+box-shadow დაემატოს 0.8s
+scale გაიზარდოს 0.5s */
+
+#par1{
+    width: 300px;
+    height: 300px;
+    border: 1px red solid;
+    background-color: green;
+    transition: width 6s , height 3s , transform 0.4s , box-shadow 0.8s , scale 0.5s  ;
+    background-image: url(download\ \(6\).jpg);
+}
+
+#par1:hover{
+    
+    width: 400px;
+    height: 350px;
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 6px lightgreen;
+    scale: 3;
+}

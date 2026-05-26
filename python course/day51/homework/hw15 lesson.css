@@ -1,0 +1,23 @@
+/* 15)გაქვს navigation bar:
+
+logo
+menu --> home, cottact , about us ...
+button
+
+გააკეთე ისე, რომ:
+
+პატარა ეკრანზე menu შემცირდეს
+მაგრამ logo და button მაქსიმალურად შენარჩუნდეს */
+
+#l1{
+    display: flex;
+    flex-shrink: 10px;
+    width: 23%;
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+
+}

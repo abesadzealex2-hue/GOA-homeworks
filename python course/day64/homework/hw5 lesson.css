@@ -1,0 +1,16 @@
+/* 5)შექმენი card:
+
+სურათი ცენტრში
+
+არ განმეორდეს
+
+contain იყოს
+
+ბოლოს shorthand იც */
+
+#card{
+    height: 600px;
+    width: 600px;
+    background: url(75657d714e308ce4912927379ddbf112.jpg) no-repeat center;
+    background-size: contain;
+}

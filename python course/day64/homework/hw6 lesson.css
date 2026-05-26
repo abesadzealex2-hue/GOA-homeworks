@@ -1,0 +1,19 @@
+/* 6)შექმენი hero სექცია:
+
+height: 100vh
+
+სურათი ცენტრში
+
+cover
+
+no-repeat
+
+ფოტომ უნდა დაფაროს მთლიანი body
+
+მხოლოდ shorthand გამოიყენე (background) */
+
+#hero{
+    height: 100vh;
+    background: url(75657d714e308ce4912927379ddbf112.jpg) center no-repeat;
+    background-size: cover;
+}

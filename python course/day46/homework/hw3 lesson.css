@@ -9,9 +9,8 @@ border: 2px solid black
 ზემოდან 30px , მარჯვნიდან 50px ,ქვემოდან 90px ,მარცხნიდან 100px */
 
 div{
-    border: 2px solid black
-}
-
-img{
+    border: 2px solid black;
     padding: 30px 50px 90px 100px;
 }
+
+

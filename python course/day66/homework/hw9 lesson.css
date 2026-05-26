@@ -1,0 +1,20 @@
+/* 9)შექმენი profile card:
+hover-ზე ფოტო rotateდეს 0.8s
+სახელი ფერში შეიცვალოს 0.3s
+card აიწიოს 0.5s
+ჩრდილი დაემატოს 1s
+shadow effect დაიწყოს 0.2s delay-ით */
+
+#par1{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(194, 165, 21);
+    transition: transform 0.8s , margin-bottom 0.5s, box-shadow 1s 0.2s;
+    
+}
+
+#par1:hover{
+    transform: rotate(200deg);
+    margin-bottom: 40px;
+    box-shadow: 6px 9px 7px red;
+}

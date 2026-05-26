@@ -1,0 +1,21 @@
+/* 6)შექმენი box, რომელსაც :active დროს:
+scale შემცირდეს 0.15s
+rotate შესრულდეს 2.4s
+background-color შეიცვალოს 1.3s */
+
+#par1{
+    width: 300px;
+    height: 300px;
+    border: 1px red solid;
+    background-color: green;
+    transition:background-color 2s , width 6s , height 3s , transform 7s  scale 0.15s ;
+}
+
+#par1:active{
+    background-color: yellow;
+    width: 400px;
+    height: 350px;
+    transform: translateY(100px);
+    scale: 0.5;
+    transform: rotate(500deg);
+}

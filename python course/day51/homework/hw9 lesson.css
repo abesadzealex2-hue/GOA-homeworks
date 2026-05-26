@@ -1,0 +1,30 @@
+/* 9)გაქვს 4 ელემენტი ერთ რიგში.
+
+მოაწყე ისე, რომ:
+
+პირველი იყოს 100px
+მეორე — 200px
+მესამე — 300px
+მეოთხე — 150px
+
+გამოიყენე flex-basis თითოეულზე */
+
+#aa{
+    display: flex;
+    flex-basis: 100px;
+}
+
+#ab{
+    display: flex;
+    flex-basis: 200px;
+}
+
+#ac{
+    display: flex;
+    flex-basis: 300px;
+}
+
+#ad{
+    display: flex;
+    flex-basis: 150px;
+}

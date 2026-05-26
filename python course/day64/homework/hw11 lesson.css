@@ -1,0 +1,22 @@
+/* 11)შექმენი კვადრატი:
+
+ნორმალურ მდგომარეობაში ცენტრში იყოს
+hover-ზე:
+ქვემოთ ჩავიდეს 50px ით
+
+გაიზარდოს ზომაში 3 ჯერ
+
+45 გრადუსით შემოტრიალდეს */
+
+div{
+    width: 200px;
+    height: 200px;
+    background: url(download\ \(5\).jpg);
+}
+
+div:hover{
+    width: 600px;
+    height: 600px;
+    transform: rotate(45deg);
+    background: url(download\ \(5\).jpg);
+}

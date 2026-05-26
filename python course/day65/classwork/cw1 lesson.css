@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    background: url(./interactive-card-details-form-main/images/bg-main-desktop.png) no-repeat left/447px;
+
+}
+
+#main{
+    display: flex;
+    align-items: center;
+}
+
+
+#par1{
+   display: flex;
+   flex-direction: column;
+}
+
+#img1{
+    display: flex;
+    position: relative;
+    right: 350px;
+    margin-top: 100px;
+    width: 447px;
+    height: 245px;
+}
+
+#img2{
+    display: flex;
+    position: relative;
+    right: 250px;
+    margin-top: 30px;
+    width: 447px;
+    height: 245px;
+}
+
+#img3{
+    position: absolute;
+    top: 170px;
+    left: 175px;
+}
+
+#firstp1{
+    position: absolute;
+    top:285px;
+    font-size: 28px;
+    color: white;
+    left: 175px;
+    letter-spacing: 3.42px;
+}
+
+#par3{
+    position: absolute;
+    letter-spacing: 3.42px;
+    top:350px;
+    left: 175px;
+    display: flex;
+    gap: 155px;
+    color: white;
+    font-size: 14px;
+}
+
+#p3{
+    position: absolute;
+    top: 533px;
+    margin-left: 105px;
+    letter-spacing: 3.42px;
+    color: white;
+    font-size: 14px;
+}
+
+#par2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    left: 290px;
+    bottom: 420px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border: black solid 2px;
+    background-color: rgb(209, 177, 15);
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+#big1{
+    border: black solid 2px;
+    background-color: rgb(68, 11, 78);
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    
+    
+   
+    
+}

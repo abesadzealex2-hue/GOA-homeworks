@@ -1,0 +1,14 @@
+/* შექმენით ერთი დივი.მიეცით ზომები სიგანე და სიმაღლე,ამ დივშ ჩასვით bg ფოტო რომელიც -->
+
+იქნება ცენტრში,არ გამეორდება დივში(ანუ მხოლოდ ერთხელ გამეორდება) , იქნება ცენტეში და შეავსებს მთლიან დივს გამოიყენეთ როგორც
+ვრცელი ასევე შემოკლენბული გზა ამ დავალების შესასრულებლად */
+
+#parent1{
+    width: 600px;
+    height: 600px;
+    /* background-image:url("75657d714e308ce4912927379ddbf112.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: url("75657d714e308ce4912927379ddbf112.jpg") no-repeat center/cover;
+}

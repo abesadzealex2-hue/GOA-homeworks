@@ -1,0 +1,21 @@
+/* 2)შექმენი ღილაკი (button), რომელსაც hover-ზე: ტექსტის ფერი შეიცვალოს 0.2s
+border-radius გაიზარდოს 0.5s background შეიცვალოს 0.7s
+background-ის transition დაიწყოს 0.3s დაგვიანებით  */
+
+#par1{
+    width: 300px;
+    height: 300px;
+    border: 1px red solid;
+    background-color: green;
+    transition:background-color 0.7s , border-radius 0.5s , width 6s , height 2s , color 0.2s  ;
+    transition-delay: 2s;
+}
+
+#par1:hover{
+    background-color: yellow;
+    border: 5px blue solid;
+    color: red;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+}

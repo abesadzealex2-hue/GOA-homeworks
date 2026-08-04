@@ -1,62 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
 
 body{
     height: 100vh;
     font-family: "Barlow", sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding-left: 165px;
+    padding-right: 165px;
+
 }
 
-#par1{
-    width: 1300px;
-    height: 750px;
-    border: 1px blue solid;
-    margin-top:55px ;
+
+#child1{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+}
+
+
+#child2{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 83px;
+}
+
+
+
+#img1{
+    width: 540px;
+    height: 480px;
+    margin-left: 60px;
+    border-radius: 38px;
+}
+
+
+#child5{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+#child6{
+    width: 255px;
+    
+}
+
+.child8{
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.child9{
+    display: flex;
+    align-items: center;
     justify-content: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 16px;
+    background-color: rgba(241, 103, 24, 1);
+}
+
+#child7{
+    display: flex;
+    gap: 30px;
+    margin-top: 168px;
+}
+
+h3{
+    font-weight: 900;
 }
 
 #child1{
-    width: 75%;
-    height: 65px;
-    border: 1px blue solid;
+    margin-top: 60px;
+}
+
+.button1{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    border: none;
+}
+
+.but2{
+    background-color:rgba(241, 103, 24, 1) ;
+    border: none;
+}
+
+.forbuttons{
+    display: flex;
+    gap: 40px;
     margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-button{
-    font-weight: 600;
-}
-
-#child2{
-    height: 450px;
-    border: 1px blue solid;
-    display: flex;
-    align-self: center;
-    position: absolute;
-    right: 1300px;
-    left: 275px;
-    width: 1000px;
-    top: 200px;
-}
-
-#child3{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
 }
 
 #child4{
-    height: 65%;
-    border: 1px blue solid;
+    width: 314px;
+}
+
+#firsth2{
+    margin-bottom: 27px;
+}
+
+.forkeyboard{
+    margin-bottom: 27px;
+    font-weight: 900;
+}
+
+.keyboard{
+    opacity: 0.5;
+}
+
+.forimages{
+    border-radius: 16px;
+}
+
+.button1{
+    color: white;
+    font-weight: 700;
+}
+
+.b{
+    color: rgb(18, 18, 93);
+    border: none;
+}
+
+.firsth2{
+    line-height: 2px;
+    font-weight: 900;
+    color: rgb(18, 18, 93);
+}
+
+#p2{
+    color: rgb(160, 157, 157);
+}
+
+.p3{
+    color: rgb(160, 157, 157);
 }

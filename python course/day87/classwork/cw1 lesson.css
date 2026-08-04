@@ -1,0 +1,23 @@
+
+:root{
+    --color:red;
+    --border-radius:50%;
+    --background-color:blue;
+    --font-weight:700;
+    --font-size:60px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    color:var(--color);
+    border-radius:var(--border-radius);
+    background-color: var(--background-color);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+}
+

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.parent1{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 150px 220px 220px 220px ;
+    grid-template-rows: 200px 200px 200px 200px ;
+    gap: 10px;
+}
+
+.red{
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.white{
+    background-color: rgb(111, 106, 106);
+    grid-row-start: 3;
+    grid-row-end: 5;
+}

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height:100hv ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: "Big Shoulders", sans-serif;
+    
+}
+
+.parent{
+    width: 999px;
+    height: 605px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns:repeat(3, 345px) ;
+    grid-template-rows: 605px;
+}
+
+.first{
+    background-color:hsl(31, 77%, 52%) ;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.second{
+    background-color:hsl(184, 100%, 22%) ;
+
+}
+
+.three{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+button{
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.orange_big_txt{
+    font-size: 45px;
+    color: white;
+    letter-spacing: 0.6px;
+    position: relative;
+    left: 42px;
+    top: 90px;
+    text-transform: uppercase;
+}
+
+.mini_text{
+    width: 225px;
+    height: 200px;
+    position: relative;
+    top: 130px;
+    left: 42px;
+    font-size: 16px;
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    opacity: 0.6;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+img{
+    position: relative;
+    top: 45px;
+    left: 45px;
+}
+
+.button1{
+    position: relative;
+    top: 160px;
+    left: 45px;
+    width: 155px;
+    height: 50px;
+    border-radius: 80px;
+    border: none;
+    color:hsl(31, 77%, 52%);
+    font-weight: 400;
+}
+
+
+.orange_big_txt1{
+    font-size: 45px;
+    color: white;
+    letter-spacing: 0.6px;
+    position: relative;
+    left: 42px;
+    top: 90px;
+    text-transform: uppercase;
+}
+
+.mini_text1{
+    width: 225px;
+    height: 200px;
+    position: relative;
+    top: 130px;
+    left: 42px;
+    font-size: 16px;
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    opacity: 0.6;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+img{
+    position: relative;
+    top: 45px;
+    left: 45px;
+}
+
+.button2{
+    position: relative;
+    top: 160px;
+    left: 45px;
+    width: 155px;
+    height: 50px;
+    border-radius: 80px;
+    border: none;
+    color:hsl(184, 100%, 22%);
+    font-weight: 400;
+}
+
+.second{
+    background-color:hsl(184, 100%, 22%) ;
+}
+
+
+.orange_big_txt2{
+    font-size: 45px;
+    color: white;
+    letter-spacing: 0.6px;
+    position: relative;
+    left: 42px;
+    top: 90px;
+    text-transform: uppercase;
+}
+
+
+.button3{
+    position: relative;
+    top: 160px;
+    left: 45px;
+    width: 155px;
+    height: 50px;
+    border-radius: 80px;
+    border: none;
+    color:hsl(179, 100%, 13%);
+    font-weight: 400;
+}

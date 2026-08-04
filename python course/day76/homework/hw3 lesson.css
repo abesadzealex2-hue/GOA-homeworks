@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.parent{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-template-rows: 200px 200px ;
+    gap: 5px;
+}
+
+.pink{
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(241, 69, 98);
+    
+}
+
+.yellow{
+    background-color: yellow;
+    border-radius: 5px;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+}
+
+.purple{
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.gray{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.t{
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 800;
+}

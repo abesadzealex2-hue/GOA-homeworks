@@ -1,0 +1,25 @@
+/* <!-- შექმენი მშბელი დივი როგორც ზემთ დავალებაში, დაყავით ეს დივი  ორი როუ ზომებით 200px 400px და ორი ქოლუმნი ზომებით  */
+/* 100px 500px  შექმენით ამ
+დივში 4 დივი და გააფერადეთ თქვენთვის სასურველ ფერებად --> */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.par1{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns:100px 500px   ;
+    grid-template-rows:200px 400px ;
+    border: 1px red solid;
+    margin-top: 200px;
+    margin-left: 300px;
+}

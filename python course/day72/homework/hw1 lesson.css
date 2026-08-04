@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.mta{
+    height: 700px;
+    width: 300px;
+    background-color: rgb(67, 129, 182);
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+.pirveli{
+    margin-left: 300px;
+    transform: rotate(220deg) translateY(-270px) translateX(-10px);
+    width: 400px;
+
+}
+
+.meore{
+    height: 565px;
+    width: 300px;
+    background-color: rgb(67, 129, 182);
+    margin-bottom: 20px;
+    transform: rotate(220deg) translateY(-230px) translateX(-22px);
+}
+
+.mesame{
+    height: 710px;
+    width: 675px;
+    background-color: rgb(67, 129, 182);
+    margin-bottom: 20px;
+    transform: rotate(-220deg) translateY(-100px) translateX(350px);
+}
+
+.grubeli{
+    width: 200px;
+    height: 125px;
+    background-color: gray;
+    position: relative;
+    bottom: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.patara{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.wre1{
+    margin-top: 30px;
+    width: 85px;
+    height: 85px;
+    background-color: aquamarine;
+}
+
+.wre2{
+    width: 120px;
+    height: 120px;
+}
+
+.cloud{
+    position: relative;
+    width: 180px;
+    height: 100px;
+    bottom: 520px;
+    right: 200px;
+}
+
+.patara{
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 50%;
+}
+
+.wre1{
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    bottom: 10px;
+}
+
+.wre2{
+    width: 80px;
+    height: 80px;
+    left: 50px;
+    bottom: 20px;
+}
+
+.wre3{
+    width: 60px;
+    height: 60px;
+    left: 100px;
+    bottom: 10px;
+}
+
+.wre4{
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    left: 20px;
+    bottom: 0;
+}
+

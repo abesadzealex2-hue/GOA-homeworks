@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 44px 132px 14px 132px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    gap: 83px;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.burger{
+    display: none;
+}
+
+.hero{
+    background: rgba(240, 239, 235, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 117px;
+    gap: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 42px;
+    width: 500px;
+}
+
+.twoEl{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 26px;
+}
+
+.info h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.info p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.info button{
+    height: 36px;
+    width: 130px;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.hero_img{
+    width: 48%;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px;
+    gap: 50px;
+}
+
+.txt_div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_div h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.short{
+    width: 35%;
+    margin-top: 10px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.cards{
+    display: flex;
+    gap: 65px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards img{
+    width: 75%;
+}
+
+.samecards{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: center;
+}
+
+.samecards h4{
+    width: 40%;
+}
+
+.samecards h5{
+    text-decoration: underline;
+}
+
+.samediv{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 50px 0px;
+}
+
+.samediv img{
+    height: 72%;
+}
+
+.section3{
+    display: grid;
+    width: 100%;
+    grid-template-columns:2fr ;
+}
+
+.txt_div2{
+    width: 535px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.txt_div2 h4{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.txt_div2 p{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.txt_div2 h3{
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.special{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.spec2{
+    text-align: end;
+    width: 513px;
+}
+
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 40px;
+    gap: 77px;
+}
+
+.griddiv{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px , 1fr));
+    width: 90%;
+    column-gap: 80px;
+    row-gap: 50px;
+}
+
+.circlediv{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: -1px 2px 10px rgb(89, 87, 87);
+}
+
+.circlediv p{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    width: 180px;
+    text-shadow: 4px 4px 12px rgb(114, 108, 108);
+}
+
+.section4 h2{
+    font-size: 36px;
+    font-weight: 400;
+    width: 450px;
+    text-align: center;
+    text-shadow: 4px 4px 22px rgb(114, 108, 108);
+}
+
+.section5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px 20px;
+}
+
+.section5 h3{
+    text-align: center;
+    width: 480px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.section6{
+    width: 100%;
+    background: rgba(240, 240, 240, 1);
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.samethree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.samethree img{
+    width: 67%;
+}
+
+.samethree p{
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    width: 230px;
+}
+
+.samethree .p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 251px;
+}
+
+.samethree .discover{
+    text-decoration: underline;
+}
+
+.samedivs2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section7{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 26px;
+}
+
+.txtdiv3{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.txtdiv3 h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.txtdiv3 p{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+form{
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 60px;
+    padding: 0 10px;
+}
+
+.two_input{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border: 1px rgba(0, 0, 0, 1) solid;
+    border-radius: 2px;
+}
+
+.long_input{
+    width: 100%;
+    height: 40px;
+}
+
+form button{
+    width: 115px;
+    height: 33px;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.thalby_ball h2 {
+    width: auto;
+    font-size: 32px;
+    color: white;
+}
+
+.thalby_ball {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.yellow {
+    width: 6px;
+    height: 6px;
+    background: rgba(204, 204, 51, 1);
+    border-radius: 50%;
+    position: relative;
+}
+
+.icons {
+    height: 20px;
+    width: 20px;
+}
+
+.for_icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.ff {
+    width: 15px;
+}
+
+.soc_media {
+    display: flex;
+    gap: 70px;
+}
+
+.first_i_div, .second_i_div {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact {
+    margin-bottom: 20px;
+}
+
+.Hel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.burger2{
+    display: none;
+}
+
+@media (max-width: 1185px) {
+    footer {
+        padding: 50px 40px;
+        justify-content: space-between;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+
+    .soc_media {
+        gap: 40px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1175px) {
+    .icons {
+        padding-left: 60px;
+    }
+
+    .info h1 {
+        font-size: 40px;
+    }
+
+    .info p {
+        font-size: 20px;
+    }
+
+    .txt_div h2 {
+        font-size: 27px;
+    }
+
+    .qali {
+        width: 30%;
+    }
+
+    .samediv h4 {
+        font-size: 29px;
+    }
+
+    .samediv p {
+        font-size: 26px;
+    }
+
+    .burger2{
+        display: block;
+    }
+}
+
+@media (max-width:1075px){
+    .icons{
+        padding-left: 30px;
+
+    }
+
+    nav img{
+        position: relative;
+        right: 60px;
+    }
+
+    .burger{
+        padding-left: 80px;
+    }
+}
+
+@media (max-width: 976px) {
+    header {
+        padding: 44px 60px 14px 60px;
+    }
+
+    .icons{
+        padding-left: 80px;
+    }
+
+    .samethree {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+    }
+
+    .samethree img {
+        width: 26%;
+    }
+
+    .samedivs2 {
+        gap: 50px;
+    }
+
+    .txt_div2 {
+        text-align: center;
+        width: 300px;
+    }
+
+    .txt_div2 p {
+        font-size: 20px;
+        padding: 0px 20px;
+    }
+
+    .txt_div2 h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero {
+        padding: 30px 40px;
+    }
+}
+
+@media (max-width: 828px) {
+    ul {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon_insta {
+        width: 17px;
+        height: 17px;
+    }
+
+    .samecards img {
+        width: 30%;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .icons {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_img {
+        width: 98%;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .short {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        text-align: center;
+        padding: 40px 24px;
+        gap: 35px;
+    }
+
+    .soc_media {
+        width: 100%;
+        gap: 50px;
+    }
+
+    .photos{
+        display: flex;
+    }
+}
+
+@media (max-width: 740px) {
+    .txt_div h2 {
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    .samethree img {
+        width: 40%;
+    }
+
+    .samediv {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 555px) {
+    .section4 h2 {
+        font-size: 28px;
+        width: 290px;
+    }
+
+    .two_input {
+        flex-direction: column;
+    }
+
+    form {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .txtdiv3 p {
+        width: 290px;
+    }
+}
+
+@media (max-width: 460px) {
+    .txt_div h2 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    nav img{
+        position: relative;
+        right: 80px;
+    }
+
+    .burger{
+        padding-left: 100px;
+    }
+
+    .icons{
+        position: relative;
+        right: 15px;
+    }
+}
+
+@media (max-width: 442px) {
+    header {
+        padding: 44px 20px 14px 20px;
+    }
+
+    .icons {
+        padding-left: 30px;
+    }
+
+    .section5 h3 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    footer {
+        padding: 30px 16px;
+    }
+
+    .thalby_ball h2 {
+        font-size: 26px;
+    }
+
+    .soc_media {
+        gap: 30px;
+    }
+
+    .for_icons {
+        gap: 15px;
+    }
+}

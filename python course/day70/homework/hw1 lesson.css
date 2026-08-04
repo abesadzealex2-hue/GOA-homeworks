@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    margin-top: 500px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.first{
+    background-color: red;
+    animation-name: first;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes first{
+    0%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(100px);
+    }
+}
+
+.second{
+    background-color: rgb(16, 232, 221);
+    animation-name: second;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: 30px;
+}
+
+@keyframes second{
+    0%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(100px);
+    }
+}
+
+.third{
+    background-color: yellow;
+    animation-name: third;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: 30px;
+}
+
+@keyframes third{
+    0%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(100px);
+    }
+}

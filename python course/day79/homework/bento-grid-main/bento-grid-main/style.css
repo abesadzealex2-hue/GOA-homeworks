@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: "DM Sans", sans-serif;
+    background-color: whitesmoke;
+}
+
+.parent{
+    display: grid;
+    margin-top: 30px;
+    margin-left: 30px;
+    grid-template-rows: 550px 186px 550px 460px;
+    grid-template-columns: 470px 502px 514px 600px;
+    gap: 34px;
+}
+
+.first{
+    background-color: hsl(31, 66%, 93%);
+    grid-row: 1/3;
+    border-radius: 9px;
+}
+
+.second{
+    background-color:hsl(39, 100%, 71%) ;
+    grid-row: 3/5;
+    border-radius: 9px;
+}
+
+.three{
+    background-color:hsl(256, 67%, 59%) ;
+    grid-row: 1/3;
+    grid-column: 2/4;
+    border-radius: 9px;
+}
+
+.four{
+    background-color:hsl(254, 88%, 90%) ;
+    grid-row: 1/4;
+    border-radius: 9px;
+}
+
+.five{
+    overflow: hidden;
+    background-color:hsl(31, 66%, 93%) ;
+    border-radius: 9px;
+}
+
+.six{
+    background-color:hsl(39, 100%, 71%) ;
+    border-radius: 9px;
+    z-index: 3;
+
+}
+
+.seven{
+    background-color:hsl(31, 66%, 93%) ;
+    border-radius: 9px;
+}
+
+.eight{
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 9px;
+    grid-column: 3/5;
+
+}
+
+.schedule_txt{
+    position: relative;
+    left: 60px;
+    top: 120px;
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.schedule_img{
+    position: relative;
+    top: 148px;
+    left: 23px;
+}
+
+.schedule_txt2{
+    position: relative;
+    left: 60px;
+    top: 110px;
+    font-size: 65px;
+    font-weight: 500;
+    color:hsl(256, 67%, 59%) ;
+    font-style: italic;
+}
+
+.second_div_txt{
+    font-size: 79px;
+    font-weight: 600;
+    position: relative;
+    left: 45px;
+    top: 35px;
+
+}
+
+.div2_img{
+    position: relative;
+    left: 46px;
+    top: 194px;
+}
+
+.inside_3div{
+    font-size: 106px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 140px;
+}
+
+span{
+    font-style: italic;
+}
+
+.span2{
+    color:hsl(39, 100%, 71%) ;
+}
+
+.five_stars{
+    position: relative;
+    left: 300px;
+    top: 180px;
+}
+
+.under_five_stars{
+    position: relative;
+    left: 291px;
+    top: 200px;
+    font-size: 34px;
+    font-weight: 500;
+    color: white;
+    opacity: 0.5;
+}
+
+.top_of_diagnostic{
+    font-size: 80px;
+    font-weight: 500;
+    position: relative;
+    top: 92px;
+    left: 70px;
+    line-height: 80px;
+}
+
+.diagnozi{
+    position: relative;
+    left: 100px;
+    top: 150px;
+    border-radius: 25px;
+}
+
+
+.for_mini_txt{
+    position: relative;
+    top: 180px;
+    left: 100px;
+    font-size: 40px;
+    font-weight: 500;
+    width: 420px;
+}
+
+.social_media{
+    position: relative;
+    top: 50px;
+    left: 72px;
+}
+
+.under_social_media{
+    position: relative;
+    top: 80px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 60px;
+    width: 390px;
+}
+
+.s{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 60px;
+    width: 390px;
+}
+
+.calendar{
+    position: relative;
+    top: 70px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+
+.per_cent{
+    font-size: 150px;
+    position: relative;
+    left: 20px;
+}
+
+.under_per_cent{
+    font-size: 45px;
+    position: relative;
+    left: 30px;
+}
+
+.three_human{
+    position: relative;
+    top: 32px;
+    left: 70px;
+}
+
+.growing_followers{
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+.grow_followers{
+    width: 500px;
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+    font-size: 70px;
+    color: white;
+}

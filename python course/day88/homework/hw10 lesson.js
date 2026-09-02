@@ -1,0 +1,1 @@
+console.log("JavaScript".slice(5,10))

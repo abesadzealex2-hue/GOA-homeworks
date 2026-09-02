@@ -1,0 +1,31 @@
+/* 3)შექმენი ღილაკი.
+
+პირობა:
+
+გამოიყენე ცვლადები:
+--btn-color
+--btn-text
+--radius
+ღილაკმა ყველა ეს მნიშვნელობა ცვლადებიდან მიიღოს. */
+
+:root{
+    --btn-color:green;
+    --btn-text:30px;
+    --radius:20px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+button{
+    background-color:var(--btn-color);
+    font-size:var(--btn-text);
+    border-radius: var(--radius);
+}

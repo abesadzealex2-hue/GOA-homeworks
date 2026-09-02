@@ -1,0 +1,26 @@
+/* 1)შექმენი div და გამოიყენე CSS ცვლადი, რომელიც განსაზღვრავს მის ფონის ფერს.
+
+პირობა:
+
+შექმენი --bg-color.
+div-ის background-color აიღე ამ ცვლადიდან */
+:root{
+    --background-color:blue;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+div{
+    background-color: var(--background-color);
+    height: 500px;
+    width: 500px;
+}

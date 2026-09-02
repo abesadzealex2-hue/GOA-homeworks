@@ -1,0 +1,29 @@
+/* 2)შექმენი სათაური.
+
+პირობა:
+
+შექმენი:
+--text-color
+--text-size
+გამოიყენე ორივე h1-ზე. */
+
+:root{
+    --color:red;
+    --font-size:60px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+
+h1{
+    color:var(--color);
+    font-size: var(--font-size);
+}

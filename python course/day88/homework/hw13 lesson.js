@@ -1,0 +1,1 @@
+console.log("      JavaScript      ".trim().startsWith("Java").slice(0 , 4))
